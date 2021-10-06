@@ -11,7 +11,7 @@ aws_lambda_function_stop.py:
   This is the AWS lambda function stops the instance. 
 
 aws_start_instance.bat : 
-  This is windows batch script to start the aws instnace from windows command line, get the IP Address and update the ssh config file used by visual studio code editor 
+  This is windows batch script to start the aws instance from windows command line, get the IP Address and update the ssh config file used by visual studio code editor 
 
 aws_stop_instance.bat : 
   This one stops the instance.
