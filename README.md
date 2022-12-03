@@ -1,12 +1,12 @@
 # AWSScripts
 Helper Scripts for AWS Platform.
 
-<b><u>To Start and Stop AWS instance automatically:</u></b>
+<u><b>To Start and Stop AWS instance automatically:</b></u>
 
-aws_lambda_function_start.py: 
+</b>aws_lambda_function_start.py:</b> 
   This is the AWS lambda function script which starts a specific was instance that is mentioned in the code. You need to create AWS Rules (Eventbridge) and call these functions from there on a specific schedule.
 
-aws_lambda_function_stop.py: 
+</b>aws_lambda_function_stop.py:</b> 
   This is the AWS lambda function stops the instance. 
 
 <b><u>To Start and Stop AWS instance from local windows:</u></b>
@@ -14,8 +14,9 @@ aws_lambda_function_stop.py:
 <b>Prerequisites:</b>
 
 You would need to install AWS CLI (Command Line Interface) on your windows os from the amazon website https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
-aws_start_instance.bat : 
+
+</b>aws_start_instance.bat :</b>
   This is windows batch script to start the aws instance from windows command line, get the IP Address and update the ssh config file used by visual studio code editor 
 
-aws_stop_instance.bat : 
+</b>aws_stop_instance.bat :</b> 
   This one stops the instance.
