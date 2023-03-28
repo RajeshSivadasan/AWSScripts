@@ -2,7 +2,6 @@
 @ECHO OFF
 
 rem Please ensure to use your AWS VM userid and password values
-rem This script has been build and tested in win 7 only
 rem aws ec2 describe-instance-status --instance-ids i-0c29ba5dc04fa6a35
 
 
