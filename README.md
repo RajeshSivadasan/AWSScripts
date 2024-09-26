@@ -3,6 +3,9 @@
 <h2>To Change TimeZone to IST:</h2>
 >sudo ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
 
+<h2>To Create virtual environment env_kite</h2>
+>python -m venv /home/ubuntu/env_kite
+
 <h2>To Activate virtual environment</h2>
 >source /home/ubuntu/env_kite/bin/activate
 <br>
