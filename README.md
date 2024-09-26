@@ -11,8 +11,7 @@
 <h2>Crontab command to invoke the script from the virtual environment</h2>
 >source /home/ubuntu/env_kite/bin/activate && cd /home/ubuntu/env_kite && python scripts/kite_options_sell.py
 
-
-**Helper Scripts for AWS Platform.**
+<h1>**Helper Scripts for AWS Platform.**<h1>
 
 <h2>To Start and Stop AWS instance automatically:</h2>
 
