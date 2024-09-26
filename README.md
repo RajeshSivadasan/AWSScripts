@@ -9,7 +9,10 @@
 (Assuming env_kite is the virtual environment created under ubuntu folder)
 
 <h2>Crontab command to invoke the script from the virtual environment</h2>
->source /home/ubuntu/env_kite/bin/activate && cd /home/ubuntu/env_kite && python scripts/kite_options_sell.py
+>crontab -e
+Append the line below in the editor
+14 9 * * * source /path/to/your/venv/bin/activate && /path/to/your/venv/bin/python /path/to/your_script.py
+
 
 <h1>Helper Scripts for AWS Platform:<h1>
 <h2>To Start and Stop AWS instance automatically:</h2>
