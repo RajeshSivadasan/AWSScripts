@@ -1,4 +1,10 @@
-# AWSScripts
+# AWSScripts and Environment Setup
+
+<h2>To Change TimeZone to IST:</h2>
+sudo ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+
+<h2>To Activate virtual environment</h2>
+sudo ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
 Helper Scripts for AWS Platform.
 
 <h2>To Start and Stop AWS instance automatically:</h2>
