@@ -5,6 +5,7 @@
 
 <h2>To Activate virtual environment</h2>
 >source /home/ubuntu/env_kite/bin/activate
+<br>
 (Assuming env_kite is the virtual environment created under ubuntu folder)
 
 <h2>Crontab command to invoke the script from the virtual environment</h2>
