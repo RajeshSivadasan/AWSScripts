@@ -9,9 +9,10 @@
 (Assuming env_kite is the virtual environment created under ubuntu folder)
 
 <h2>Crontab command to invoke the script from the virtual environment</h2>
->crontab -e
-Append the line below in the editor
-14 9 * * * source /path/to/your/venv/bin/activate && /path/to/your/venv/bin/python /path/to/your_script.py
+Use below command to activate the crontab editor
+<br>>crontab -e
+<br>Append the line below in the editor
+<br>14 9 * * * source /path/to/your/venv/bin/activate && /path/to/your/venv/bin/python /path/to/your_script.py
 
 
 <h1>Helper Scripts for AWS Platform:<h1>
