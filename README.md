@@ -11,9 +11,9 @@
 <h2>Crontab command to invoke the script from the virtual environment</h2>
 Use below command to activate the crontab editor
 <br>>crontab -e
-<br>Append the line below in the editor
+<br>Append the line below in the editor. This runs the script everyday at 9.14 AM
 <br>14 9 * * * source /path/to/your/venv/bin/activate && /path/to/your/venv/bin/python /path/to/your_script.py
-
+<br>Press Ctrl+x to exit and Enter key to save before exit
 
 <h1>Helper Scripts for AWS Platform:<h1>
 <h2>To Start and Stop AWS instance automatically:</h2>
