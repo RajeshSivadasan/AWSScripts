@@ -14,7 +14,7 @@
 <h2>Crontab command to invoke the script from the virtual environment</h2>
 Use below command to activate the crontab editor
 <br>>crontab -e
-<br>Append the line below in the editor. This runs the script everyday at 9.14 AM
+<br>Append the line below in the editor. This runs the script everyday at 9.15 AM
 <br>15 9 * * * /bin/bash -c 'cd /home/ubuntu/env_kite && source /home/ubuntu/env_kite/bin/activate &&  python3 scripts/kite_options_sell.py >> /home/ubuntu/job_log 2>&1'
 <br>Press Ctrl+x to exit and Enter key to save before exit
 
