@@ -1,7 +1,15 @@
 # AWSScripts and Environment Setup
-
-<h2>To Change TimeZone to IST:</h2>
+<h2>Step 1. Create an ubuntu instance in EC2</h2>
+<h2>Step 2: Change TimeZone to IST:</h2>
 >sudo ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+<h2>Step 3: Update ubuntu package:</h2>
+>sudo apt update
+<h2>Step 4: Check python version:</h2>
+>python3 --version
+
+
+
+
 
 <h2>To Create virtual environment env_kite</h2>
 >python -m venv /home/ubuntu/env_kite
