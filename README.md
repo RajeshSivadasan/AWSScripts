@@ -1,6 +1,8 @@
 # AWSScripts and Environment Setup
 <h2>Step 1. Create an ubuntu instance in EC2</h2>
-<h2>Step 2: Change TimeZone to IST:</h2>
+
+<h2>Step 2: Change TimeZone to IST (For India users):</h2>
+>timedatectl
 >sudo ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
 <h2>Step 3: Update ubuntu package:</h2>
 >sudo apt update
