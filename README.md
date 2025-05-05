@@ -35,24 +35,20 @@ In the AWS Console, got Lambda Service and create the below 2 funcitons:
 <b>aws_lambda_function_stop.py:</b> 
   This is the AWS lambda function stops the instance. 
 
-
+<b>
 To Schedule the above 2 lambda functions, got to Schedules (Inside Scheduler) under the AWS Eventbridge service and create 2 schedules as below:
-
+</b>b
 1. Start (This will trigger the start lambda function as per the given schedule)
 Schedule pattern = Recurring schedule
 Schedule type = Cron-based schedule
 Cron expression = Paste the below corn expression 
 5 9 ? * 2-6 *
 
-2. Stop (This will trigger the start lambda function as per the given schedule)
+2. Stop (This will trigger the stop lambda function as per the given schedule)
 Schedule pattern = Recurring schedule
 Schedule type = Cron-based schedule
 Cron expression = Paste the below corn expression 
-5 9 ? * 2-6 *
-
-<b>
-
-
+40 15 ? * 2-6 *
 
 <h2>To Start and Stop AWS instance from local windows:</h2>
 
