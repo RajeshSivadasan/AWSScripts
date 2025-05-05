@@ -37,7 +37,9 @@ In the AWS Console, got Lambda Service and create the below 2 funcitons:
 
 <b>
 To Schedule the above 2 lambda functions, got to Schedules (Inside Scheduler) under the AWS Eventbridge service and create 2 schedules as below:
-</b>b
+</b>
+
+
 1. Start (This will trigger the start lambda function as per the given schedule)
 Schedule pattern = Recurring schedule
 Schedule type = Cron-based schedule
