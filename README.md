@@ -27,7 +27,7 @@ Use below command to activate the crontab editor
 <h1>Helper Scripts for AWS Platform:<h1>
 <h2>To Start and Stop AWS instance automatically:</h2>
 
-In the AWS Console, got Lambda Service and create the below 2 funcitons:
+In the AWS Console, go to Lambda Service and create the below 2 functions:
 
 <b>aws_lambda_function_start.py:</b> 
   This is the AWS lambda function script which starts a specific was instance that is mentioned in the code. You need to create AWS Rules (Eventbridge) and call these functions from there on a specific schedule.
