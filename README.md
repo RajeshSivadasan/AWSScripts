@@ -9,10 +9,6 @@
 <h2>Step 4: Check python version:</h2>
 >python3 --version
 
-
-
-
-
 <h2>To Create virtual environment env_kite</h2>
 >python -m venv /home/ubuntu/env_kite
 
@@ -31,11 +27,32 @@ Use below command to activate the crontab editor
 <h1>Helper Scripts for AWS Platform:<h1>
 <h2>To Start and Stop AWS instance automatically:</h2>
 
+In the AWS Console, got Lambda Service and create the below 2 funcitons:
+
 <b>aws_lambda_function_start.py:</b> 
   This is the AWS lambda function script which starts a specific was instance that is mentioned in the code. You need to create AWS Rules (Eventbridge) and call these functions from there on a specific schedule.
 
 <b>aws_lambda_function_stop.py:</b> 
   This is the AWS lambda function stops the instance. 
+
+
+To Schedule the above 2 lambda functions, got to Schedules (Inside Scheduler) under the AWS Eventbridge service and create 2 schedules as below:
+
+1. Start (This will trigger the start lambda function as per the given schedule)
+Schedule pattern = Recurring schedule
+Schedule type = Cron-based schedule
+Cron expression = Paste the below corn expression 
+5 9 ? * 2-6 *
+
+2. Stop (This will trigger the start lambda function as per the given schedule)
+Schedule pattern = Recurring schedule
+Schedule type = Cron-based schedule
+Cron expression = Paste the below corn expression 
+5 9 ? * 2-6 *
+
+<b>
+
+
 
 <h2>To Start and Stop AWS instance from local windows:</h2>
 
