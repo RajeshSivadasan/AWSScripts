@@ -20,6 +20,11 @@
 <br>
 (Assuming env_ab is the virtual environment created under ubuntu folder)
 
+>pip install pya3
+>pip install Crypto
+>pip install pycryptodome
+>pip install pyotp
+
 <h2>Crontab command to invoke the script from the virtual environment</h2>
 Use below command to activate the crontab editor
 <br>>crontab -e
