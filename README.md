@@ -9,19 +9,22 @@
 <h2>Step 4: Check python version:</h2>
 >python3 --version
 
-<h2>To Create virtual environment env_kite</h2>
->python -m venv /home/ubuntu/env_kite
+<h2>Install virtual environment package if needed</h2>
+>sudo apt install python3.12-venv
+
+<h2>To Create virtual environment env_ab</h2>
+>python -m venv /home/ubuntu/env_ab
 
 <h2>To Activate virtual environment</h2>
->source /home/ubuntu/env_kite/bin/activate
+>source /home/ubuntu/env_ab/bin/activate
 <br>
-(Assuming env_kite is the virtual environment created under ubuntu folder)
+(Assuming env_ab is the virtual environment created under ubuntu folder)
 
 <h2>Crontab command to invoke the script from the virtual environment</h2>
 Use below command to activate the crontab editor
 <br>>crontab -e
 <br>Append the line below in the editor. This runs the script everyday at 9.15 AM
-<br>15 9 * * * /bin/bash -c 'cd /home/ubuntu/env_kite && source /home/ubuntu/env_kite/bin/activate &&  python3 scripts/kite_options_sell.py >> /home/ubuntu/job_log 2>&1'
+<br>15 9 * * * /bin/bash -c 'cd /home/ubuntu/env_ab && source /home/ubuntu/env_ab/bin/activate &&  python3 scripts/ab_options_sell.py >> /home/ubuntu/job_log 2>&1'
 <br>Press Ctrl+x to exit and Enter key to save before exit
 
 <h1>Helper Scripts for AWS Platform:<h1>
