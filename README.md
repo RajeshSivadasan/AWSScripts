@@ -15,7 +15,7 @@
 <h2>To Create virtual environment env_ab</h2>
 >python -m venv /home/ubuntu/env_ab
 
-<h2>To Activate virtual environment</h2> (Assuming env_ab is the virtual environment created under ubuntu folder)
+<h2>To Activate virtual environment</h2> (Assuming env_ab is the virtual environment created under ubuntu folder)<br>
 >source /home/ubuntu/env_ab/bin/activate
 <br>
 
