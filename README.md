@@ -15,15 +15,13 @@
 <h2>To Create virtual environment env_ab</h2>
 >python -m venv /home/ubuntu/env_ab
 
-<h2>To Activate virtual environment</h2>
+<h2>To Activate virtual environment</h2> (Assuming env_ab is the virtual environment created under ubuntu folder)
 >source /home/ubuntu/env_ab/bin/activate
 <br>
-(Assuming env_ab is the virtual environment created under ubuntu folder)
-
->pip install pya3
->pip install Crypto
->pip install pycryptodome
->pip install pyotp
+>pip install pya3<br>
+>pip install Crypto<br>
+>pip install pycryptodome<br>
+>pip install pyotp<br>
 
 <h2>Crontab command to invoke the script from the virtual environment</h2>
 Use below command to activate the crontab editor
