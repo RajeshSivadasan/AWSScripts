@@ -18,6 +18,8 @@
 <h2>To Activate virtual environment</h2> (Assuming env_ab is the virtual environment created under ubuntu folder)
 >source /home/ubuntu/env_ab/bin/activate
 <br>
+
+Install the below modules: <br>
 >pip install pya3<br>
 >pip install Crypto<br>
 >pip install pycryptodome<br>
