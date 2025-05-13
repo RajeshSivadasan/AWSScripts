@@ -25,6 +25,9 @@ Install the below modules: <br>
 >pip install pycryptodome<br>
 >pip install pyotp<br>
 
+<h1>Install crontab in ubuntu<br>
+>sudo apt install cron
+
 <h2>Crontab command to invoke the script from the virtual environment</h2>
 Use below command to activate the crontab editor
 <br>>crontab -e
