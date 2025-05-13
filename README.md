@@ -9,27 +9,25 @@
 <h2>Step 4: Check python version:</h2>
 >python3 --version
 
-<h2>Step 5:Install crontab in ubuntu:</h2>
+<h2>Step 5: Install crontab in ubuntu:</h2>
 >sudo apt install cron
 
-<h2>Step 6:Install virtual environment package if needed</h2>
+<h2>Step 6: Install virtual environment package if needed</h2>
 >sudo apt install python3.12-venv
 
-<h3>To Create virtual environment env_ab</h3>
+<h2>Step 7: To Create virtual environment env_ab</h2>
 >python -m venv /home/ubuntu/env_ab
 
-<h2>To Activate virtual environment</h2> (Assuming env_ab is the virtual environment created under ubuntu folder)<br>
+<h2>Step 8: To Activate virtual environment</h2> (Assuming env_ab is the virtual environment created under ubuntu folder)<br>
 >source /home/ubuntu/env_ab/bin/activate
 <br>
-
-Install the below modules: <br>
+<h2>Step 9: Install the below required modules: </h2>
 >pip install pya3<br>
 >pip install Crypto<br>
 >pip install pycryptodome<br>
 >pip install pyotp<br>
 
-
-<h2>Crontab command to invoke the script from the virtual environment</h2>
+<h2>Step 10: Setup Crontab command to invoke the script from the virtual environment</h2>
 Use below command to activate the crontab editor
 <br>>crontab -e
 <br>Append the line below in the editor. This runs the script everyday at 9.15 AM
