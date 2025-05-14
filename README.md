@@ -50,13 +50,13 @@ To Schedule the above 2 lambda functions, got to Schedules (Inside Scheduler) un
 </b>
 
 
-1. Start (This will trigger the start lambda function as per the given schedule)<br>
+1. Start (This will trigger the start lambda function as per the given schedule which is 9:05 AM on weekdays)<br>
 Schedule pattern = Recurring schedule<br>
 Schedule type = Cron-based schedule<br>
 Cron expression = Paste the below corn expression<br> 
 5 9 ? * 2-6 *
 
-2. Stop (This will trigger the stop lambda function as per the given schedule)<br>
+2. Stop (This will trigger the stop lambda function as per the given schedule 3:40 PM on weekdays)<br>
 Schedule pattern = Recurring schedule<br>
 Schedule type = Cron-based schedule<br>
 Cron expression = Paste the below corn expression<br> 
