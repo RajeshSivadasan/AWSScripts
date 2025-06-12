@@ -29,13 +29,14 @@
 
 <h2>Step 10: Setup Crontab command to invoke the script from the virtual environment</h2>
 Use below command to activate the crontab editor
-<br>crontab -e
+<br>>crontab -e
 <br>Append the line below in the editor. This runs the script everyday at 9.15 AM
 <br>15 9 * * * /bin/bash -c 'cd /home/ubuntu/env_ab && source /home/ubuntu/env_ab/bin/activate &&  python3 scripts/ab_options_sell.py >> /home/ubuntu/job_log 2>&1'
 <br>Press Ctrl+x to exit and Enter key to save before exit
 
 <h2>Step 11: To copy file from github to the ubuntu instance</h2>
-<br>wget  
+<br>You can get the raw file url by clicking the Raw option after opening a file in github inbuilt editor, top right.
+<br>>wget https://raw.githubusercontent.com/RajeshSivadasan/alice-blue-option-selling/refs/heads/main/ab_options_sell.py  
 
 <h1>Helper Scripts for AWS Platform:<h1>
 <h2>To Start and Stop AWS instance automatically:</h2>
