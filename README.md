@@ -16,7 +16,7 @@
 >sudo apt install python3.12-venv
 
 <h2>Step 7: To Create virtual environment env_ab</h2>
->python -m venv /home/ubuntu/env_ab
+>python3 -m venv /home/ubuntu/env_ab
 
 <h2>Step 8: To Activate virtual environment</h2> (Assuming env_ab is the virtual environment created under ubuntu folder)<br>
 >source /home/ubuntu/env_ab/bin/activate
@@ -29,10 +29,13 @@
 
 <h2>Step 10: Setup Crontab command to invoke the script from the virtual environment</h2>
 Use below command to activate the crontab editor
-<br>>crontab -e
+<br>crontab -e
 <br>Append the line below in the editor. This runs the script everyday at 9.15 AM
 <br>15 9 * * * /bin/bash -c 'cd /home/ubuntu/env_ab && source /home/ubuntu/env_ab/bin/activate &&  python3 scripts/ab_options_sell.py >> /home/ubuntu/job_log 2>&1'
 <br>Press Ctrl+x to exit and Enter key to save before exit
+
+<h2>Step 11: To copy file from github to the ubuntu instance</h2>
+<br>wget  
 
 <h1>Helper Scripts for AWS Platform:<h1>
 <h2>To Start and Stop AWS instance automatically:</h2>
