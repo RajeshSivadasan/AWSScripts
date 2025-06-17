@@ -1,5 +1,5 @@
-# AWSScripts and Environment Setup
-<h2>Step 1. Create an ubuntu instance in EC2</h2>
+# AWS/Oracle Ubuntu Scripts and Environment Setup
+<h2>Step 1. Create an ubuntu instance in EC2/Oracle Cloud</h2>
 
 <h2>Step 2: Change TimeZone to IST (For India users):</h2>
 >timedatectl
