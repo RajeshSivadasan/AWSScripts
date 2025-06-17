@@ -30,7 +30,7 @@
 <h2>Step 10: Setup Crontab command to invoke the script from the virtual environment</h2>
 Use below command to activate the crontab editor
 <br>>crontab -e
-<br>Append the line below in the editor. This runs the script everyday at 9.15 AM
+<br>Append the line below in the editor. This runs the script everyday at 9.14 AM
 <br>14 9 * * * /bin/bash -c 'cd /home/ubuntu/env_ab && source /home/ubuntu/env_ab/bin/activate &&  python3 scripts/ab_options_sell.py >> /home/ubuntu/job_log 2>&1'
 <br>Press Ctrl+x to exit and Enter key to save before exit
 
