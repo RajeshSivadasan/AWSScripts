@@ -31,7 +31,7 @@
 Use below command to activate the crontab editor
 <br>>crontab -e
 <br>Append the line below in the editor. This runs the script everyday at 9.15 AM
-<br>15 9 * * * /bin/bash -c 'cd /home/ubuntu/env_ab && source /home/ubuntu/env_ab/bin/activate &&  python3 scripts/ab_options_sell.py >> /home/ubuntu/job_log 2>&1'
+<br>14 9 * * * /bin/bash -c 'cd /home/ubuntu/env_ab && source /home/ubuntu/env_ab/bin/activate &&  python3 scripts/ab_options_sell.py >> /home/ubuntu/job_log 2>&1'
 <br>Press Ctrl+x to exit and Enter key to save before exit
 
 <h2>Step 11: To copy file from github to the ubuntu instance</h2>
