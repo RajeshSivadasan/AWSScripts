@@ -20,6 +20,9 @@
 
 <h2>Step 8: To Activate virtual environment</h2> (Assuming env_ab is the virtual environment created under ubuntu folder)<br>
 >source /home/ubuntu/env_ab/bin/activate
+
+<br>To deactivate or come out of the virtual environment<br>
+>deactivate
 <br>
 <h2>Step 9: Install the below required modules: </h2>
 >pip install pya3<br>
