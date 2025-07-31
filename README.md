@@ -38,7 +38,13 @@ Use below command to activate the crontab editor
 
 <h2>Step 11: To copy file from github to the ubuntu instance</h2>
 <br>You can get the raw file url by clicking the Raw option after opening a file in github inbuilt editor, top right.
-<br>>wget https://raw.githubusercontent.com/RajeshSivadasan/alice-blue-option-selling/refs/heads/main/ab_options_sell.py  
+<br>>wget https://raw.githubusercontent.com/RajeshSivadasan/alice-blue-option-selling/refs/heads/main/ab_options_sell.py 
+
+<h2>Step 12: To enable OS level firewall in Ubuntu and Save persistantly</h2>
+<br>sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 5000 -j ACCEPT
+<br>sudo netfilter-persistent save
+<br>
+<br>Flush iptables to troubleshoot using command: sudo iptables -F
 
 <h1>Helper Scripts for AWS Platform:<h1>
 <h2>To Start and Stop AWS instance automatically:</h2>
