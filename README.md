@@ -40,11 +40,16 @@ Use below command to activate the crontab editor
 <br>You can get the raw file url by clicking the Raw option after opening a file in github inbuilt editor, top right.
 <br>>wget https://raw.githubusercontent.com/RajeshSivadasan/alice-blue-option-selling/refs/heads/main/ab_options_sell.py 
 
-<h2>Step 12: To enable OS level firewall in Ubuntu and Save persistantly</h2>
+<h2>Step 12: To enable OS level firewall in Ubuntu and Save persistantly(for hosting flask apps)</h2>
 <br>>sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 5000 -j ACCEPT
 <br>>sudo netfilter-persistent save
 <br>
 <br>If needed, Flush iptables to troubleshoot using command: >sudo iptables -F
+<br> Setup corn for the flask app in the crontab -e and pip install gunicorn in the virtual env
+<br>>@reboot /bin/bash -c 'cd /home/ubuntu/env_kite/scripts && source /home/ubuntu/env_kite/bin/activate && gunicorn --bind 0.0.0.0:5000 flask_kite_config:app
+<br>If app is not reachable checik by below cmd
+<br>curl http://<publicIP>:5000/
+
 
 <h1>Helper Scripts for AWS Platform:<h1>
 <h2>To Start and Stop AWS instance automatically:</h2>
