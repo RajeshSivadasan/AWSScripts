@@ -44,10 +44,10 @@ Use below command to activate the crontab editor
 <br>>sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 5000 -j ACCEPT
 <br>>sudo netfilter-persistent save
 <br>
-<br>If needed, Flush iptables to troubleshoot using command: >sudo iptables -F
-<br> Setup corn for the flask app in the crontab -e and pip install gunicorn in the virtual env
+<br> If needed, Flush iptables to troubleshoot using command: >sudo iptables -F
+<br> Setup below cron for the flask app in using crontab -e and also pip install gunicorn in the virtual env
 <br>>@reboot /bin/bash -c 'cd /home/ubuntu/env_kite/scripts && source /home/ubuntu/env_kite/bin/activate && gunicorn --bind 0.0.0.0:5000 flask_kite_config:app
-<br>If app is not reachable checik by below cmd
+<br>If app is not reachable check by below cmd
 <br>curl http://<publicIP>:5000/
 
 
