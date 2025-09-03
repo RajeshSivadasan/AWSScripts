@@ -50,6 +50,10 @@ Use below command to activate the crontab editor
 <br>If app is not reachable check by below cmd
 <br>curl http://<publicIP>:5000/
 
+<h2> Other useful commands:
+<br> To run in the background without getting killed when session is disconnected:
+<br> > nohup python3 kite_options_sell.py &
+<br>
 
 <h1>Helper Scripts for AWS Platform:<h1>
 <h2>To Start and Stop AWS instance automatically:</h2>
