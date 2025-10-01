@@ -58,8 +58,8 @@ Use below command to activate the crontab editor
 <br> Select Generate API Key Pair
 <br> Download both private and public key
 <br> In the same page, Copy the text generated into a new file named ~\.oci\config in the VM
-<br> Copy the generated private key file in the VM path  ~\.oci\<private key filename> 
-<br> Update the "key_file=" parameter in ~\.oci\config with "~\.oci\<private key filename>"
+<br> Copy the generated private key file in the VM path  ~\.oci\&lt;private key filename&gt;> 
+<br> Update the "key_file=" parameter in ~\.oci\config with "~\.oci\&lt;private key filename&gt;"
 <br>
 
 <h2> Other useful commands:</h2>
