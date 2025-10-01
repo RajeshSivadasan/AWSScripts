@@ -50,7 +50,7 @@ Use below command to activate the crontab editor
 <br>If app is not reachable check by below cmd
 <br>curl http://<publicIP>:5000/
 
-<h2>Step 13: To create config file to use the OCI SDK from python:
+<h2>Step 13: To create config file to use the OCI SDK from python:</h2>
 <br> Go to Profile (right top corner) in the console
 <br> Go to User Setting
 <br> Go to Tokens and keys
@@ -62,7 +62,7 @@ Use below command to activate the crontab editor
 <br> Update the key_file= parameter ~\.oci\config with ~\.oci\<private key filename>
 <br>
 
-<h2> Other useful commands:
+<h2> Other useful commands:</h2>
 <br> To run in the background without getting killed when session is disconnected:
 <br> > nohup python3 kite_options_sell.py &
 <br>
