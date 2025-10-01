@@ -51,15 +51,15 @@ Use below command to activate the crontab editor
 <br>curl http://<publicIP>:5000/
 
 <h2>Step 13: To create config file to use the OCI SDK from python:</h2>
-<br> Go to Profile (right top corner) in the console
+<br> Go to Profile (right top corner) in the OCI console
 <br> Go to User Setting
 <br> Go to Tokens and keys
 <br> Add API Keys
 <br> Select Generate API Key Pair
 <br> Download both private and public key
-<br> Copy the text generated into a new file named ~\.oci\config in the VM
-<br> Copy the generated private key file in the path ~\.oci\<private key filename> 
-<br> Update the key_file= parameter ~\.oci\config with ~\.oci\<private key filename>
+<br> In the same page, Copy the text generated into a new file named ~\.oci\config in the VM
+<br> Copy the generated private key file in the VM path  ~\.oci\<private key filename> 
+<br> Update the "key_file=" parameter in ~\.oci\config with "~\.oci\<private key filename>"
 <br>
 
 <h2> Other useful commands:</h2>
